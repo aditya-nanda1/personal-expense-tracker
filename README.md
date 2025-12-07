@@ -1,16 +1,65 @@
-# React + Vite
+# 📌 Personal Expense Tracker  
+### Built by **Aditya Nanda**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Personal Expense Tracker application built using React with **Custom Hooks** and **LocalStorage integration**. This app helps users record, manage, filter, and track their daily expenses with persistent data storage.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://personal-expense-tracker-orcin.vercel.app/  
+🔗 **Source Code:** https://github.com/aditya-nanda1/personal-expense-tracker.git  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
+This project focuses on mastering **Custom React Hooks** for handling reusable logic and **LocalStorage** for data persistence. It demonstrates how business logic can be cleanly separated from UI while building a fully functional real-world expense tracking system.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💰 Core Functionality
+- Add new expenses with:
+  - Title  
+  - Amount  
+  - Category  
+  - Date  
+- Display all expenses in a dynamic list  
+- Delete or manage expenses  
+- View total spending summary  
+- Data persists even after page refresh using **LocalStorage**
+
+---
+
+### ⚙️ Custom Hooks & Advanced Logic
+- Custom hook for managing form input state  
+- Custom hook for adding, updating, and removing expenses  
+- Custom hook for syncing data with **LocalStorage**  
+- Category-based filtering  
+- Date-range filtering  
+- Search functionality  
+- Monthly expense summary  
+- Sorting by amount, date, and category  
+
+---
+
+## 🛠️ Tech Stack
+- **React**
+- **Custom Hooks**
+- **JavaScript (ES6+)**
+- **CSS**
+- **LocalStorage**
+- **Vercel** for deployment
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/aditya-nanda1/personal-expense-tracker.git
+cd personal-expense-tracker
+npm install
+npm start
+```
+
+---
+
+## 🧑‍💻 Author  
+**Aditya Nanda**
